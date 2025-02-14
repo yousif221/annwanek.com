@@ -1,5 +1,0 @@
-# Disable PHP execution in storage
-<FilesMatch "\.(php|php5|phtml)$">
-    Order allow,deny
-    Deny from all
-</FilesMatch>
